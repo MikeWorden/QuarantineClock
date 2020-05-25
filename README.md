@@ -9,7 +9,7 @@ For setting up phue, visit: https://github.com/studioimaginaire/phue
 Add the following to "/etc/xdg/lxsession/LXDE-pi/autostart"
 
 @lxterminal -e /home/pi/QuarantineClock/BackLight.py
-
+@/home/pi/QuarantineClock/noblank.sh
 @chromium-browser --incognito  --noerrdialogs --disable-desktop-notifications -update-kiosk --check-for-update-interval=1 --simulate-critical-update /home/pi/QuarantineClock/today.html
 
 
